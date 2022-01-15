@@ -67,7 +67,6 @@ class MusicPlayer:
         scrol_y.config(command=self.playlist.yview)
         self.playlist.pack(fill=BOTH)
         # Changing Directory for fetching Songs
-        #os.chdir("F://Google Drive//Docencia//Teaching - JKLU//Teaching - 2020//FoA - 2121//Code//music_player//songs")
         os.chdir(".//songs")
         # Fetching Songs
         songtracks = os.listdir()
